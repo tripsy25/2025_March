@@ -9,5 +9,5 @@ This CLI helps to get the user list from the database. Helps to remove the user 
 ![image](https://github.com/user-attachments/assets/30b53821-29b0-4400-afee-7ad00ee96abc)
 
 # PieShop Website using Tailwind CSS 
-![image](https://github.com/user-attachments/assets/3925c2e1-a931-4f38-b171-29a7d52fd8af)
+![image](https://github.com/user-attachments/assets/66cd20eb-aa5a-4baf-a092-3a47ad7c1554)
 ![image](https://github.com/user-attachments/assets/c92cd74a-5b2b-45f6-b5c3-2f5e0b68cdd5)
