@@ -1,0 +1,56 @@
+<header class="site-header">
+  <a class="home-logo" [routerLink]="['/' + ROUTE_TOKENS.home]"
+    ><img [src]="logoUrl" alt="Home-Just like People Pet Boutique" />
+  </a>
+  <nav
+  aria-lable="Main">
+    <ul>
+      <li>
+        <a class="menu-option" [routerLink]="['/' + ROUTE_TOKENS.contact]"
+          >Home</a
+        >
+      </li>
+      <li>
+        <button
+          (keydown.escape)="selectCategory('none')"
+          (click)="toggleMenu()"
+          role="link"
+          class="menu-option"
+          [attr.aria-expanded]="showMenu"
+        >
+          Products
+          <span [class.rotated-arrow-icon]="showMenu" class="arrow-icon"></span>
+        </button>
+        <ul class="collapsible-content" [class.show-subMenu]="showMenu">
+          @if (showMenu) {
+            @for (link of LINKS; track link.category) {
+              <li class="content-inner">
+                <a
+                  class="link"
+                  [routerLink]="['/' + ROUTE_TOKENS.products, link.category]"
+                  (click)="selectCategory(link.category)"
+                  (keydown.escape)="selectCategory('none')"
+                >
+                  {{ link.description }}
+                </a>
+              </li>
+            }
+          }
+        </ul>
+      </li>
+      <li>
+        <a class="menu-option" [routerLink]="['/' + ROUTE_TOKENS.contact]"
+          >Contact</a
+        >
+      </li>
+      <li>
+        <a
+        [routerLink]="['/'+ ROUTE_TOKENS.cart]"
+        queryParamsHandling="merge"
+        class="menu-option"><span class="total-items">{{cartService.totalItems()}}</span>
+        <img src="../../assets/images/cart-icon.png" alt="Shopping-cart">
+      </a>
+      </li>
+    </ul>
+  </nav>
+</header>
