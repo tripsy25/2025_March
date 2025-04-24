@@ -11,3 +11,10 @@ This CLI helps to get the user list from the database. Helps to remove the user 
 # PieShop Website using Tailwind CSS 
 ![image](https://github.com/user-attachments/assets/66cd20eb-aa5a-4baf-a092-3a47ad7c1554)
 ![image](https://github.com/user-attachments/assets/c92cd74a-5b2b-45f6-b5c3-2f5e0b68cdd5)
+
+# Just Like People - Pet Boutique (Accessibility Implemented)
+![image](https://github.com/user-attachments/assets/d67247e6-1dac-452d-a625-48358b300537)
+![image](https://github.com/user-attachments/assets/d4c1a067-b7af-48ca-8292-8eea8696e48f)
+![image](https://github.com/user-attachments/assets/bf12745d-6e37-4a32-9390-7b21de61a855)
+![image](https://github.com/user-attachments/assets/ae3908b0-5752-47d9-ad7f-d1bc2a76d20c)
+
