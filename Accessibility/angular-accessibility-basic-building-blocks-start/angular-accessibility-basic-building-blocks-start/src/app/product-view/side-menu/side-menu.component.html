@@ -6,6 +6,8 @@ class="side-nav">
     <li>
       <a
         [routerLink]="['./']"
+        routerLinkActive="router-link-active"
+        ariaCurrentWhenActive="page"
         [queryParams]="{
           productId: product.id
         }"

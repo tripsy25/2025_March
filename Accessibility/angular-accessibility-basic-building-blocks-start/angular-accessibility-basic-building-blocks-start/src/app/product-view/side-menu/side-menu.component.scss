@@ -47,3 +47,10 @@
   filter: drop-shadow(0 0 0.5rem rgb(33, 18, 16));
 }
 
+.router-link-active img {
+  width: 94%;
+  height: 94%;
+  border: solid var(--border-width) var(--white);
+  filter: drop-shadow(0 0 8px var(--drop-shadow));
+}
+

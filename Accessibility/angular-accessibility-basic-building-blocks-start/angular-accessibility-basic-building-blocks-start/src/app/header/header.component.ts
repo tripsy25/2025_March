@@ -1,7 +1,7 @@
 import { Component, inject} from '@angular/core';
 import { LINKS } from '../models/category';
 import { ROUTE_TOKENS } from '../models/route-tokens';
-import { RouterLink } from '@angular/router';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { CartService } from '../services/cart.service';
 
@@ -14,6 +14,7 @@ import { CartService } from '../services/cart.service';
   imports: [
     RouterLink,
     CommonModule,
+    RouterLinkActive
   ]
 })
 export class HeaderComponent {
