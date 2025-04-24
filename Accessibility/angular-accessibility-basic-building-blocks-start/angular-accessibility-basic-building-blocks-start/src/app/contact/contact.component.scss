@@ -1,26 +1,4 @@
-/* START - delete styles between these comments */
-.main-content{
-  margin-top: 20px;
-  background-color: var(--background-light-blue);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.contact-wrapper {
-  flex-grow: 1;
-  min-width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.image-wrapper {
-  margin-right: 5%;
-}
-/* END - delete styles between these comments */
-
-img{
+ img{
   width: 100%;
 }
 
@@ -91,16 +69,6 @@ textarea {
   height: 147px;
   padding: 10px;
   width: 100%;
-}
-
-input[type=submit],
-button {
-  border: 0;
-  color: rgba(54, 48, 44, 1);
-  font-size: 16px;
-  height: 51px;
-  text-transform: uppercase;
-  width: 219px;
 }
 
 input.ng-invalid.ng-touched:not(form),

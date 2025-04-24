@@ -4,11 +4,19 @@ import { ContactService } from '../services/contact.service';
 import { takeUntil, tap } from 'rxjs/operators';
 import { ReplaySubject } from 'rxjs';
 import { FormsModule } from '@angular/forms';
+import { JlpButtonDirective } from '../shared-ui/jlp-button.directive';
+import { JlpBorderButtonDirective } from '../shared-ui/jlp-border-button.directive';
+import { TwoPanelLayoutComponent } from '../shared-ui/two-panel-layout/two-panel-layout.component';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @Component({
   standalone: true,
   imports: [
     FormsModule,
+    JlpButtonDirective,
+    JlpBorderButtonDirective,
+    TwoPanelLayoutComponent,
+    MatProgressSpinnerModule
   ],
   selector: 'app-contact',
   templateUrl: './contact.component.html',
